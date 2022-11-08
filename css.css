@@ -1,0 +1,72 @@
+body, html{
+    height: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: black;
+    line-height: 30px;
+}
+
+.part, .part1, .part2, .part3{
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.50;
+}
+
+.part{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJGuq0hrQLausKVEDbWDx9r3Uz0WCp_oDdUA&usqp=CAU');
+    min-height: 100%;
+}
+
+.part1{
+    background-image: url('https://www.researchgate.net/profile/H-Scott-Fogler/publication/239923269/figure/fig2/AS:393145020895237@1470744485882/Heath-Electronic-Analog-Computer-1960.png');
+    min-height: 600px;
+}
+
+.part2{
+    background-image: url('https://www.shutterbug.com/images/styles/600_wide/public/applepromoxxx.jpg');
+    min-height: 600px;
+}
+
+.part3{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/b9/WAT_1001.jpg');
+    min-height: 600px;
+}
+
+.section{
+    text-align: justify;
+    padding: 40px 70px;
+    color: white;
+    background-color: rgb(96, 96, 128);
+
+}
+.head, .types{
+    text-align: center;
+}
+
+.title{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align: center;
+    font-weight: bolder;
+    font-size:30px;
+    text-transform:uppercase;
+
+}
+
+.title .type {
+    background: transparent;
+    background-color: rgb(16, 16, 66);
+    color: white;
+    padding: 25px;
+}
+
+@media(max-width:600px){
+    .part, .part1, .part2, .part3{
+        background-attachment: scroll;
+    }
+}
